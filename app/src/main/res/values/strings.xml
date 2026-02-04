@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ConstraintLayout</string>
+    <string name="ball">⚽</string>
+    <string name="center">Center</string>
 </resources>
