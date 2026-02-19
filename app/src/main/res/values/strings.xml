@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">ConstraintLayout</string>
     <string name="ball">⚽</string>
-    <string name="center">Center</string>
+    <string name="start">Começar</string>
+    <string name="question">O que vamos aprender hoje?</string>
+    <string name="gretting">Olá!</string>
+    <string name="popular_courses">Cursos Populares</string>
+    <string name="see_all">Ver todos</string>
 </resources>
