@@ -16,9 +16,14 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val buttonStart: Button = findViewById(R.id.button)
-        buttonStart.setOnClickListener {
+        val buttonCourses: Button = findViewById(R.id.button_courses)
+        buttonCourses.setOnClickListener {
             val intent = Intent(this, CoursesActivity::class.java)
+            startActivity(intent)
+        }
+        val buttonCappuccino: Button = findViewById(R.id.button_coffee)
+        buttonCappuccino.setOnClickListener {
+            val intent = Intent(this, CoffeeActivity::class.java)
             startActivity(intent)
         }
     }
