@@ -50,6 +50,7 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_margin="15dp"
+        android:contentDescription="@string/back_description"
         android:background="@drawable/ic_arrow_back"
         android:backgroundTint="@color/white"
 
@@ -72,6 +73,7 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
+                android:contentDescription="@string/time_description"
                 android:background="@drawable/ic_clock"
                 android:backgroundTint="@color/brown"/>
             <TextView
@@ -90,6 +92,7 @@
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
+                android:contentDescription="@string/favorite_description"
                 android:background="@drawable/ic_favorite"
                 android:backgroundTint="@color/brown"/>
             <TextView
@@ -126,7 +129,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginStart="10dp"
-        android:text="Ingredientes"
+        android:text="@string/ingredient_description"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -150,6 +153,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
+                android:contentDescription="@string/ingredient_description"
                 android:background="@drawable/ic_chevron_right" />
 
             <TextView
@@ -169,6 +173,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
+                android:contentDescription="@string/ingredient_description"
                 android:background="@drawable/ic_chevron_right" />
 
             <TextView
@@ -188,6 +193,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
+                android:contentDescription="@string/ingredient_description"
                 android:background="@drawable/ic_chevron_right" />
 
             <TextView
